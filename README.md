@@ -1,0 +1,1 @@
+## Chat with your PDF: Seamlessly interact with documents using Amazon Bedrock, RAG, S3, Langchain, and Streamlit for intelligent, responsive conversations.
