@@ -3,12 +3,6 @@
 ### Architecture
 ![PDFPal Architecture](PDFPal-architecture.png)
 
-### Admin Interface
-![PDFPal Admin](admin.png)
-
-### Client Interface
-![PDFPal Admin](client.png)
-
 PDFPal is a web application designed for processing PDF files. It offers two main components:
 
 - **Admin Interface**: For processing PDFs, creating a vector store, and uploading it to Amazon S3.
@@ -78,11 +72,19 @@ docker build -t pdfpal-user .
 2. **Run Docker Containers**:
 
 For the Admin Interface (accessible at http://localhost:8083):
+
+### Admin Interface
+![PDFPal Admin](admin.png)
+
 ```cmd
 docker run -p 8083:8083 pdfpal-admin
 ```
 
 For the User Interface (accessible at http://localhost:8084):
+
+### Client Interface
+![PDFPal Admin](client.png)
+
 ```cmd
 docker run -p 8084:8084 pdfpal-user
 ```
