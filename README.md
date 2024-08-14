@@ -71,18 +71,18 @@ docker build -t pdfpal-user .
 ```
 2. **Run Docker Containers**:
 
-For the Admin Interface (accessible at http://localhost:8083):
-
 ### Admin Interface
+
+For the Admin Interface (accessible at http://localhost:8083):
 ![PDFPal Admin](admin.png)
 
 ```cmd
 docker run -p 8083:8083 pdfpal-admin
 ```
 
-For the User Interface (accessible at http://localhost:8084):
-
 ### Client Interface
+
+For the User Interface (accessible at http://localhost:8084):
 ![PDFPal Admin](client.png)
 
 ```cmd
