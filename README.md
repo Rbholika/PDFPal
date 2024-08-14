@@ -1,6 +1,13 @@
 ## Chat with your PDF: Seamlessly interact with documents using Amazon Bedrock, RAG, S3, Langchain, and Streamlit for intelligent, responsive conversations.
 
+### Architecture
 ![PDFPal Architecture](PDFPal-architecture.png)
+
+### Admin Interface
+![PDFPal Admin](admin.png)
+
+### Client Interface
+![PDFPal Admin](client.png)
 
 PDFPal is a web application designed for processing PDF files. It offers two main components:
 
